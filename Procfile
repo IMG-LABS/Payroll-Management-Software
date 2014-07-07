@@ -1,0 +1,1 @@
+web: gunicorn --pythonpath="$PWD/payroll" config.wsgi:application
